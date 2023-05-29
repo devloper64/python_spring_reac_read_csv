@@ -48,7 +48,7 @@ const FileUpload = () => {
 
     return (
         <div>
-            <h1>File Upload</h1>
+            <h1>Please Upload CSV File</h1>
             <form onSubmit={handleSubmit}>
                 <input type="file" onChange={handleFileChange} accept=".csv" />
                 <input type="text" value={targetColumn} onChange={handleTargetColumnChange} placeholder="Target Column" />
